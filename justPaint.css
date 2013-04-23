@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+	}
+	
+html, body {
+        width: 100%;
+        height: 100%;
+      }
+      
+canvas {
+	display: block;
+	}
+
+#container { 
+	position: relative; 
+	padding: 5px 0px 0px 0px;
+	}
+
+#toolbar {
+	float: left;
+	}
+	
+#paintCanvas { border: 1px solid black; }
+
+#canvasDiv {
+	float: left;
+	}
+
+.button {
+	width:50px; 
+	height:50px; 
+	float:left;
+	clear: both;
+	border-radius: 100%;
+	}	
+
+.icon {
+	width:50px; 
+	height:50px; 
+	float:left;
+	clear: both;
+	}
+
+#black {
+	background: black;
+	border: 1px dashed white;
+	}
+	
+#red {
+	background:red;
+	}
+	
+#blue {
+	background: blue;
+	}
+	
+#orange {
+	background: orange;
+	}
+	
+#green {
+	background: green;
+	}
+
+#yellow {
+	background: yellow;
+	}	
+	
+#pink {
+	background: pink;
+	margin: 0px 0px 1px 0px;
+	}
+	
+#cyan {
+	background: cyan;
+	}
+
+#lime {
+	background: lime;
+	}
+	
+#purple {
+	background: purple;
+	}
+		
+#white {
+	background: white;
+	border: 0.5px dashed black;
+	}
+		
